@@ -34,3 +34,12 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    const playButton = document.getElementById('playButton');
+    const audio = document.getElementById('audio');
+
+    playButton.addEventListener('click', function() {
+        audio.play();  // Reproduce el sonido cuando se hace clic en el botón
+    });
+});s

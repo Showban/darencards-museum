@@ -134,11 +134,11 @@ footer{
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 1rem;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
 }
 .item_f{
     padding: 1rem;
-    border: 1px solid orange;
+    /*border: 1px solid orange;*/
     justify-content: center;
     align-items: center;
 }
